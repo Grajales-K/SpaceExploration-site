@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --marian-blue: rgba(64, 58, 126, 1);
+    --ultra-violet: rgba(85, 74, 148, 1);
+    --licorice: rgba(26, 17, 28, 1);
+    --pale-purple: rgba(245, 227, 252, 1);
+    --tropical-indigo: rgba(148, 132, 218, 1);
+    var(--pale-purple);
+}
+
+body {
+    margin: 0;
+    color: var(--marian-blue);
+    text-align: center;
+}
+
+.hero {
+    color: var(--pale-purple);
+    background-image: url("/images/nebulosa.webp");
+    background-size: cover;
+    text-align: center;
+    padding: 30px;
+    height: 75vh;
+
+}
+
+.logo {
+    width: 200px;
+
+}
+
+.title {
+    font-family: orbitron, Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+.btn {
+    margin: 25px;
+    font-family: orbitron, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 8px 12px;
+    background-color: var(--marian-blue);
+    border: none;
+    font-weight: 700;
+
+}
+
+/* 
+  The span element with this class is used because it takes up only the space necessary 
+  to style the specific text area, unlike a div which would occupy more space.
+
+  Naming conventions:
+  - .cto: Acronym for "Control", typically used for elements that manage user input or interaction.
+  - .cta: Acronym for "Call to Action", used for elements like buttons or links that prompt user action.
+*/
+.cta {
+    border-bottom: 4px solid white; /* This creates a white underline with a thickness of 4px */
+}
+
+.text {
+    padding: 20px;
+    font-weight: 900;
+    font-size: 27px;
+    text-shadow: -2px 3px 3px rgb(112, 234, 236);
+}
